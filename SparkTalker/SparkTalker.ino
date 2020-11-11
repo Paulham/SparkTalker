@@ -160,17 +160,17 @@ void loop() {
     if(M5.BtnA.wasPressed()) 
     {
       displayPreset("1");
-      sendPreset(0);    
+      sendPreset(1);    
     }
     if(M5.BtnB.wasPressed()) 
     {
       displayPreset("2");
-      sendPreset(1);
+      sendPreset(2);
     } 
     if(M5.BtnC.wasPressed()) 
     {
       displayPreset("3");    
-      sendPreset(2);
+      sendPreset(3);
     } 
 
     // Clear BT message buffer
